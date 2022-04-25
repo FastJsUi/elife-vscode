@@ -1,0 +1,22 @@
+{
+    "extends": [
+        "@fastjsui/eslint-config-basic"
+    ],
+    "rules": {
+        "no-undef": "off",
+        "no-console": "off",
+        "object-shorthand": "off",
+        "prefer-rest-params": "off",
+        "prefer-arrow-callback": "off",
+        "import/no-mutable-exports": "off",
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 2,
+                "VariableDeclarator": 2,
+                "outerIIFEBody": 2
+            }
+        ]
+    }
+}

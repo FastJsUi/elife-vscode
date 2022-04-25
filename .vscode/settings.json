@@ -1,0 +1,36 @@
+{
+    "sync.gist": "",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    // 编辑器样式
+    "window.zoomLevel": 1.2,
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Bluloco Dark Italic",
+    // 编辑器设置
+    "editor.tabSize": 4,
+    "editor.fontSize": 14,
+    "editor.mouseWheelZoom": true,
+    "editor.detectIndentation": false,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.fontFamily": "Hack, JetBrains Mono, Source Code Pro",
+    // 格式化代码
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
